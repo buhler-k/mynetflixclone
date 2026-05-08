@@ -1,5 +1,182 @@
 
 
 * {
-    
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.main-container {
+    background-image: url("./ASSETS/background_image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    color: white;
+    height: 98vh;
+    width: 99vw;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: px;
+}
+
+.main-container img {
+    width: 90px;
+    height: 45px;
+}
+
+/*  styling the trending cards*/
+
+.trending-cards {
+    background-color: black;
+    margin-top: -22px;
+    margin-left: -10px;
+    margin-right: -9px;
+}
+
+.border-line {
+    border-top: white solid 1px;
+    border-radius: 80px;
+}
+
+
+.card-wrapper {
+    margin: 5px;
+    display: inline-block;
+    position: relative;
+}
+
+.card1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+}
+
+.card2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+}
+
+.card3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+}
+
+.card4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+}
+
+.card5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+}
+
+.card6 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+}
+
+.card7 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+}
+
+.card8 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+}
+
+.card9 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+}
+
+.card10 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    color: white;
+    font-size: 40px;
+}
+
+/* styling the trailer-video */
+
+.trailer-video {
+    background-color: black;
+}
+
+
+/* styling the benefits section */
+
+.benefits {
+    background-color: black;
+}
+
+
+
+
+
+/* styling the FAQ-section */
+
+.FAQ-Section {
+    background-color: black;
+
+}
+
+/* styling the joining section */
+
+.joining {
+    background-color: black;
+}
+
+/* styling the sign-in section */
+
+.footer sign-up {
+    background-color: black;
+}
+
+
+
+
+
+/* styling the footer section */
+
+footer {
+    background-color: black;
 }
