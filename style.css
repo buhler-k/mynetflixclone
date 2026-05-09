@@ -1,10 +1,15 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     box-sizing: border-box;
     color: white;
 }
 
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/* styling the main container */
 
 .main-container {
     background-image: url("./ASSETS/background_image.jpg");
@@ -16,13 +21,92 @@
     width: 99vw;
     margin-top: -8px;
     margin-left: -8px;
-    margin-right: px;
 }
 
 .main-container img {
-    width: 90px;
-    height: 45px;
+    width: 300px;
+    height: 90px;
+    margin-top: 1px;
 }
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-in button {
+    background-color: red;
+    border-radius: 8px;
+    margin-right: 50px;
+    width: 80px;
+    height: 40px;
+}
+
+
+.logo img {
+    padding: 0px;
+    padding-top: 5px;
+    padding-left: 150px; 
+}
+
+.account-creation {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.account-creation h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 50px;
+    padding-bottom: 90px;
+    margin-left: 300px;
+    width: 50vw;
+    height: 30px;
+    
+}
+.account-creation {
+    padding-top: 50px;
+    margin-bottom: 2px;
+    align-content: center;
+}
+
+.signing-up-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    gap: 2px;
+
+}
+
+.signing-up-form input {
+    background: none;
+    padding: 10px;
+    width: 370px;
+    height: 58px;
+    font-size: 20px;
+    border: none;
+}
+
+form {
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+
+
+.official-sign-up {
+    height: 58px;
+    width: 215px;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 8px;
+    /* margin-bottom: 230px; */
+}
+
 
 /*  styling the trending cards*/
 
@@ -156,13 +240,67 @@
 
 .FAQ-Section {
     background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -19px;
+    margin-bottom: -19px;
+    padding-left: 80px;
+}
+
+.FAQ-Section h3 {
+    padding-left: 40px;
+    padding-top: 62px;
+    font-size: 22px;
 
 }
+
+.questions-list {
+    list-style-type: none;
+    height: 800px;
+}
+
+.questions-list button {
+    width: 1000px;
+    height: 85px;
+    background-color: grey;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
 
 /* styling the joining section */
 
 .joining {
     background-color: black;
+    align-items: center;
+    padding-bottom: 110px;
+    
+}
+
+.joining h3 {
+    padding-left: 400px;
+    font-size: 15px;
+    
+}
+
+/* styling the footer sign-up section */
+
+/* .footer-sign-up {
+     margin-bottom: 10px;
+    padding-top: 1px;
+    padding-bottom: ; 
+} */
+
+.signing-up-form form {
+    width: 500px;
+    height: 20px;
+    padding-bottom: 60px;
+}
+
+.footer-sign-up .signing-up-form button {
+    height: 65px;
 }
 
 /* styling the sign-in section */
@@ -179,4 +317,37 @@
 
 footer {
     background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -16px;
 }
+
+.footer-info {
+    padding-left: 80px;
+
+}
+
+.customer-line {
+    padding-left: 40px;
+}
+#footer-list {
+    list-style-type: none;
+    columns: 4;
+}
+
+.language-selection {
+    margin-left: 40px;
+}
+
+.netflix-south {
+    padding-top: 20px;
+    margin-left: 40px;
+}
+
+.recaptcha {
+    /* margin-top: 25px; */
+    padding-bottom: 50px;
+    margin-left: 40px;
+
+}
+

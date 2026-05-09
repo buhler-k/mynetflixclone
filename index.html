@@ -10,20 +10,35 @@
 
 
     <div class="main-container">
-        <!-- <img src="./ASSETS/background_image.jpg"> -->
+        <div class="nav-items">
             <div class="logo">
                 <img src="./ASSETS/logo.png">
             </div>
+
             <div class="sign-in">
-                <button>Sign In</button>
+                <button><strong>Sign In</strong></button>
+            </div>
+        </div>
+            
+            <div class="account-creation">
+                <h1><strong>Unlimited movies, TV shows, and more</strong></h1>
+                <p>Starts at R59. Cancel anytime.</p>
+                <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+
             </div>
             
-            <div class="">
-                <h1>Unlimiited movies, TV shows, and more</h1>
-                <h4>Starts at R59. Cancel anytime.</h4>
-                <p>Ready to watch? Enter your email to create or restart your memebrship.</p>
-                <input type="text" placeholder="Email address">
-                <button>Lets Initialize > </button>
+
+
+            <div class="signing-up-form">
+
+                <form>
+                    <input type="text" placeholder="Email address">
+                </form> <br>
+
+                <button class="official-sign-up"><strong>Lets Initialize > </strong></button>
+
+            
+                
             </div>
     </div>
         
@@ -111,13 +126,13 @@
     <div class="FAQ-Section">
         <h3>Frequently Asked Questions</h3>
         
-        <ul>
-            <button><li>What is Netflix?</li></button>
-            <button>How much does Netflix cost?</button>
-            <button>Where can I watch?</button>
-            <button>How do I cancel?</button>
-            <button>What can I watch on Netflix?</button>
-            <button>Is Netflix good for kids?</button>
+        <ul class="questions-list">
+            <li><button>What is Netflix?</button></li>
+            <li><button>How much does Netflix cost?</button></li>
+            <li><button>Where can I watch?</button></li>
+            <li><button>How do I cancel?</button></li>
+            <li><button>What can I watch on Netflix?</button></li>
+            <li><button>Is Netflix good for kids?</button></li>
         </ul>
 
     </div>
@@ -126,18 +141,28 @@
     <footer>
 
         <div class="joining">
-            <h3>Ready to watch? Enter your email to create or restart your memebership.</h3>
+            <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+            
+            <div class="footer-sign-up">
+                <div class="signing-up-form">
+                    
+                    <form>
+                    <input type="text" placeholder="Email address">
+                    </form><br>
+                    
+                    <button class="official-sign-up"><strong>Lets Initialize > </strong></button>
 
+                </div>
+            </div>
+            
         </div>
+    
         
-        <div class="footer sign-up">
-            <input type="text" placeholder="Email address">
-            <button>Lets initialize ></button>
-        </div>
-        
-        <span>Questions? Call <a href="0800 100 046">0800 100 046</a></span>
+        <div class="footer-info">
+            
+            <span class="customer-line">Questions? Call <a href="0800 100 046">0800 100 046</a></span> <br><br>
 
-            <ul>
+            <ul id="footer-list" >
                 <li> <a href="https://help.netflix.com/en/node/412">FAQ</a></li>
                 <li> <a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relations</a></li>
                 <li> <a href="https://help.netflix.com/en/node/14361">Ways to Watch</a></li>
@@ -156,23 +181,26 @@
                 <li> <a href="">Cookie Preferences</a></li>
                 <li> <a href="https://help.netflix.com/legal/notices">Legal Notices</a></li>
 
-            </ul>
-            
-            <span>
-                <input type="button" id="languages" value="English">
-            </span>
+            </ul> <br><br><br>
 
-            <div>
-                <p>Netflix South Africa</p>
+
+            
+            <span class="language-selection">
+                <input type="button" id="languages" value="English">
+            </span> <br> <br> <br>
+
+            <div class="netflix-south">
+                <p>Netflix South Africa</p> <br>
 
             </div>
-            <div>
+            <div class="recaptcha">
                 <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
             </div>
+        </div>
 
 
 
-        </footer>
+    </footer>
         
         
 
