@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>netFlixclone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel= "response" href="responsive.css">
 </head>
+
 <body>
 
     
@@ -26,14 +28,14 @@
     
             
             <div class="account-creation">
-                <h1><strong>Unlimited movies, TV shows, and more</strong></h1>
+                <h1><strong>Unlimited movies, TV shows, and more</strong></h1><br>
                 <p>Starts at R59. Cancel anytime.</p>
                 <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
 
             </div>
             
             <div class="signing-up-form">
-                <form>
+                <form id="log-in">
                     <input type="text" placeholder="Email address"> 
                 </form> <br>
                 <button class="official-sign-up"><strong>Lets Initialize > </strong></button>
@@ -52,10 +54,14 @@
   
     </div>
 
+     <div class="trend">
+        <h4>Trending Now</h4>
+     </div>
+
         
         <div class="trending-cards"> <br><br>
             
-            <h4>Trending Now</h4>
+            
             <span class="card-wrapper">
                  <img src="./ASSETS/TRENDING-CARD-NO.1.webp">
                  <span class="card1">1</span>
@@ -101,9 +107,11 @@
         </div>
 
     <div class="trailer-video">
-        <video autoplay muted>
-            <source src="./assets/NETFLIX TRAILER.mp4" type="video/mp4">
-        </video>
+        <div class="trailer">
+            <video autoplay muted>
+                <source src="./assets/NETFLIX TRAILER.mp4" type="video/mp4">
+            </video>
+        </div>
 
     </div>
 
@@ -119,6 +127,7 @@
                 <div>
                     <h3>Enjoy on your TV</h3>
                     <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blue-ray players, and more.</p>
+                    < >
                 </div>
                 
                 <div>
@@ -221,9 +230,9 @@
                     <p>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
                 </div>
             </li>
-        </ul>
+        </ul> 
 
-    </div>
+    </div> 
       
     
     <footer>
@@ -234,8 +243,8 @@
             <div class="footer-sign-up">
                 <div class="signing-up-form">
                     
-                    <form>
-                    <input type="text" placeholder="Email address">
+                    <form> 
+                        <input type="text" placeholder="Email address">
                     </form><br>
                     
                     <button class="official-sign-up"><strong>Lets Initialize > </strong></button>
@@ -273,9 +282,12 @@
 
 
             
-            <span class="language-selection">
-                <input type="button" id="languages" value="English">
-            </span> <br> <br> <br>
+            <div class="language-selection">
+                <select name="language" id="language">
+                    <option value="English">English</option>
+                </select>
+            </div>
+
 
             <div class="netflix-south">
                 <p>Netflix South Africa</p> <br>
@@ -285,6 +297,7 @@
                 <p>This page is protected by Google reCAPTCHA to ensure you're not a bot.</p>
             </div>
         </div>
+
 
 
 
