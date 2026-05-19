@@ -1,9 +1,38 @@
 @media screen and (max-width: 1000px) and (min-width: 768px) { 
+    .logo img {
+    padding-top: 5px;
+    padding-left: 150px;
+
+    }
+
+    .main-container .logo img {
+    width: 20vw;
+    height: 20vh;
+    }
 
 }
 
 @media screen and (max-width: 768px) and (min-width: 480px) {
-
+    .logo {
+    padding-top: 5px;
+    padding-left: 150px;
     }
 
-@media screen and (max-width: 480px) { }
+    .main-container .logo img {
+    width: 20vw;
+    height: 20vh;
+    }
+
+}
+
+@media screen and (max-width: 480px) { 
+     .logo {
+    padding-top: 5px;
+    padding-left: 150px;
+    }
+
+    .main-container .logo img {
+    width: 20vw;
+    height: 20vh;
+    }
+}
