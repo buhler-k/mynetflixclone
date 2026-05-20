@@ -1,11 +1,10 @@
 /* styling laptop and desktop screens */
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
-  .logo img {
-    padding-top: 5px;
-    padding-left: 150px;
-    width: 55px;
-    height: 40vh;
+    .nav-items .logo img {
+    width: 120px;
+    height: auto;
+    padding: 10px;
     }
 
     .account-creation h1{
@@ -60,16 +59,122 @@
 }
 
 @media screen and (max-width: 767px) and (min-width: 480px) {
-    .main-container .logo img {
-    width: 20vw;
-    height: 20vh;
+    .nav-items .logo img {
+    width: 120px;
+    height: auto;
+    padding: 10px;
     }
+
+    .account-creation h1 {
+        font-size: x-large;
+        margin-left: -160px;
+        padding-bottom: 35px;
+    }
+
+    .account-creation .pricing {
+        padding-right: 50px;
+        margin-left: -250px;
+    }
+
+    .watching {
+        padding-left: 25px;
+        margin-left: -250px;
+    }
+
+    .reasons-to-join {
+        margin-left: -110px;
+    }
+
+    #reason-cards {
+        height: auto;
+        width: 850px;
+        margin-left: 45px;
+        border-radius: 0%;
+        gap: 25px;
+        margin-top: 1px;
+    }
+
+    
+    .FAQ-Section h3{
+        padding-top: 150px;
+        padding-left: 42px;
+        margin-left: -90px;
+    }
+
+    .faq-item {
+        width: px;
+    }
+
+    .questions-list .faq-item{
+        width: auto;
+        margin-left: -160px;
+        margin-right: 10px;
+
+    }
+
+    .joining h3{
+        display: initial;
+        color: white;
+        font-size: small;
+        padding-left: 50px;
+    }
+
+    .signing-up {
+        display: flex;
+        gap: 10px;
+    }
+
+    .signing-up input{
+        margin-left: -240px;
+    }
+
+    .footer-info {
+        display: initial;
+        margin-left: -125px;
+    }
+
+    
+    .customer-line {
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-left: 25px;
+    }
+
+    #footer-list {
+        display: block;
+        list-style-type: none;
+        margin-left: 20px;
+        height: auto;  
+
+    }
+
+    .language-selection {
+        margin-left: 0px;
+        height: auto;
+    }
+    #language {
+        margin-top: 0;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        padding: 0 10px;
+        height: 40px;
+
+
+    }
+
+    .netflix-south {
+        padding-left:120px;
+    }
+
+    .recaptcha {
+        padding-left: 100px;
+
+
 }
 
 
 /* styling the mobile size screen */
 @media screen and (max-width: 480px) { 
-
     .nav-items .logo img {
     width: 120px;
     height: auto;
@@ -109,15 +214,16 @@
     }
 
     .reasons-to-join {
-        margin-left: -130px;
+        margin-left: -90px;
     }
 
     #reason-cards {
-        display: list-item;
+        display: flex;
+        flex-wrap: wrap;
         height: auto;
-        margin-left:-2px;
+        width: 600px;
+        margin-left:20px;
         border-radius: 0%;
-        gap: 50px;
         margin-top: -1px;
     
     }
@@ -234,10 +340,3 @@
     .recaptcha {
         padding-left: 80px;
     }
-
-
-
-
-
-
-}
