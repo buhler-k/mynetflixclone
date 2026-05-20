@@ -1,38 +1,192 @@
 @media screen and (max-width: 1000px) and (min-width: 768px) { 
-    .logo img {
+  .nav- .logo img {
     padding-top: 5px;
     padding-left: 150px;
-
-    }
-
-    .main-container .logo img {
     width: 20vw;
     height: 20vh;
     }
 
 }
 
-@media screen and (max-width: 768px) and (min-width: 480px) {
-    .logo {
-    padding-top: 5px;
-    padding-left: 150px;
-    }
-
+@media screen and (max-width: 767px) and (min-width: 480px) {
     .main-container .logo img {
     width: 20vw;
     height: 20vh;
     }
-
 }
 
+
+/* styling the mobile size screen */
 @media screen and (max-width: 480px) { 
-     .logo {
-    padding-top: 5px;
-    padding-left: 150px;
+
+    .nav-items .logo img {
+    width: 120px;
+    height: auto;
+    padding: 10px;
     }
 
-    .main-container .logo img {
-    width: 20vw;
-    height: 20vh;
+    .account-creation{
+       display: initial;
     }
+    .account-creation h1 {
+        font-size: x-large;
+        margin-left: 110px;
+        padding-bottom: 35px;
+    }
+
+    .account-creation .pricing {
+        padding-right: 50px;
+        margin-left: -40px;
+    }
+
+    .watching {
+        padding-left: 55px;
+    }
+
+    .signing-up-form input {
+        width: 170px;
+    }
+
+    .signing-up-form .official-sign-up {
+        width: 115px;
+    }
+
+    .netflix-curve {
+        width: 700px;
+        margin-left: -150px;
+       
+    }
+
+    .reasons-to-join {
+        margin-left: -130px;
+    }
+
+    #reason-cards {
+        display: list-item;
+        height: auto;
+        margin-left:-2px;
+        border-radius: 0%;
+        gap: 50px;
+        margin-top: -1px;
+    
+    }
+
+    .reasons-to-join h4{
+        padding-top : 10px;
+    }
+
+    .reason1 {
+        
+        width: 350px; 
+    }
+    .reason2 {
+        
+        width: 350px; 
+    }
+
+    .reason3 {
+        width: 350px;
+    
+    }
+
+    .reason4 {
+        
+        width: 350px; 
+    }
+
+    .FAQ-Section h3{
+        padding-top: 150px;
+        padding-left: 42px;
+        margin-left: -90px;
+    }
+
+    .faq-item {
+        width: px;
+    }
+
+    .questions-list .faq-item{
+        width: auto;
+        margin-left: -160px;
+
+    }
+
+    .joining h3{
+        display: initial;
+        color: white;
+        font-size: xx-small;
+        padding-left: 50px;
+    }
+
+    .signing-up {
+        display: flex;
+        gap: 10px;
+        height: 75px;
+    }
+    .signing-up input{
+        width: 5px;
+        margin-left: -240px;
+    }
+
+    .official-sign-up {
+        width: 200px;
+    }
+
+    .footer-info {
+        display: initial;
+        margin-left: -125px;
+    }
+
+    .customer-line {
+        display: inline-block;
+        margin-bottom: 100px;
+        margin-left: 15px;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    #footer-list {
+        display: block;
+        margin-bottom: 0px;
+        list-style-type: none;
+        columns: 3;
+        column-gap: 1px;
+        padding-top: 20px;
+        margin-left: 10px;
+        height: auto;
+    }
+
+    #footer-list li{
+        margin-bottom: -10px;
+
+    } 
+
+    .language-selection {
+        margin-left: 0px;
+        height: auto;
+    }
+    #language {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+        padding: 0 10px;
+        height: 40px;
+
+
+    }
+
+    .netflix-south {
+        padding-left:50px;
+    }
+
+    .recaptcha {
+        padding-left: 80px;
+    }
+
+
+
+
+
+
 }
