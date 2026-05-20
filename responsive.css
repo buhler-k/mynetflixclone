@@ -1,10 +1,61 @@
-@media screen and (max-width: 1000px) and (min-width: 768px) { 
-  .nav- .logo img {
+/* styling laptop and desktop screens */
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .logo img {
     padding-top: 5px;
     padding-left: 150px;
-    width: 20vw;
-    height: 20vh;
+    width: 55px;
+    height: 40vh;
     }
+
+    .account-creation h1{
+        text-align: left;
+        font-size: 40px;
+    }
+
+    .account-creation .pricing{
+        text-align: left;
+        margin-left: -92px;
+
+    }
+
+    #footer-list {
+        display: block;
+        list-style-type: none;
+        columns: 4;
+        margin-bottom: 0px;
+    }
+
+    .customer-line {
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-left: 60px;
+    }
+
+
+    .signing-up-form {
+        margin-left: 200px;
+        padding-bottom: px;
+
+    }
+
+    .questions-list .faq-item{
+        width: 700px;
+
+    }
+
+    .joining h3 {
+        margin-left: -55px;
+    }
+
+    .signing-up {
+        display: flex;
+        margin-right: 96px;
+        gap: 10px;
+    }
+
+
+
 
 }
 
