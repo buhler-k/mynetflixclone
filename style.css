@@ -109,7 +109,6 @@ body {
     font-weight: 900;
     margin-top: 50px;
     padding-bottom: 100px;
-    /* margin-left: 300px; */
     width: 50vw;
     height: 30px;
     
@@ -466,7 +465,6 @@ body {
     background: #2d2d2d;
     transition: max-height 0.2s cubic-bezier(0.5, 0, 0.1, 1);
     margin-top: 1px;
-    height: px;
 }
 
 .faq-content {
@@ -572,20 +570,16 @@ a {
     margin-left: 100px;
     margin-top: -120px;
     columns: 4;
-    padding-top: 90px;
+    padding-top: 100px;
 }
 
 .language-selection {
     background: black;
-    margin-bottom: px;
-
-    /* border-radius: 15%; */
 }
 
 #language {
     background: #222222;
     margin-left: 100px;
-    /* margin-top: -35px; */
     color: white;
     width: 142px; 
 }

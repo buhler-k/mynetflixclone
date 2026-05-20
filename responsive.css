@@ -168,13 +168,12 @@
 
     .recaptcha {
         padding-left: 100px;
-
-
+    }
 }
-
 
 /* styling the mobile size screen */
 @media screen and (max-width: 480px) { 
+
     .nav-items .logo img {
     width: 120px;
     height: auto;
@@ -323,6 +322,7 @@
         margin-left: 0px;
         height: auto;
     }
+
     #language {
         margin-top: 0;
         margin-left: 0;
@@ -340,3 +340,4 @@
     .recaptcha {
         padding-left: 80px;
     }
+}
